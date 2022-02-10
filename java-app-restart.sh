@@ -15,11 +15,13 @@
 #      信息见https://docs.oracle.com/en/java/javase/17/docs/specs/man/jps.html；
 #
 #   3. 使用其它厂商的JDK的用户请自测该脚本是否可用；
-
+#
 #   4. 若运行Java应用的JVM进程和脚本运行时采用jps命令行工具的JDK来自不同的厂商实现，则
 #      运行的Java应用也许不可见。如您指定使用来自IBM/Eclipse的基于OpenJ9虚拟机的JDK运
 #      行Java应用程序，但脚本运行时采用的时来自Oracle的基于Hotshot虚拟机的JDK，则运行
-#      的Java应用或许对脚本不可见。
+#      的Java应用或许对脚本不可见；
+#
+#   5. 我是Bash脚本小白！！！
 
 # 待重启的Java应用
 MY_APP_NAME="example-1.2-SNAPSHOT.jar"
